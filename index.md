@@ -24,7 +24,7 @@ Years of quizzing left me with a habit of reading random Wikipedia pages and hop
 
 - **Mar '26** — Ran my first 10K
 - **Dec '25** — Became a certified PADI Open Water Diver
-- **Jun '25** — Promoted to Member of Technical Staff II
+- **Jul '25** — Promoted to Member of Technical Staff II
 - **Jun '24** — Joined Adobe as a Member of Technical Staff
 - **May '24** — Graduated from IIT Bombay
-- **May '23** — Institute System Administrator, IIT Bombay
+- **Jun '23** — Institute System Administrator, IIT Bombay
