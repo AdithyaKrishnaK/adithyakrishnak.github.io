@@ -3,41 +3,116 @@ layout: archive
 title: "Projects and Research Experience"
 permalink: /projects/
 author_profile: true
+card_layout: projects
 feature_row:
-  - image_path: /assets/img/mess-i.jpg
-    alt: "Digital mess"
+  - image_path: /assets/img/projects/morning-paper.svg
+    alt: "A morning newspaper with a rising sun and a personalized news chart"
+    title: 'The Morning Paper [WIP]'
+    category: 'AI Agents · Personal Project'
+    url: "https://github.com/AdithyaKrishnaK/daily_brief_agent"
+    btn_label: "Code"
+    excerpt: >-
+      A personal project to keep up with developments across my interests without checking a growing list of sources. Building a personalized news and recommendation dashboard that groups related stories into a daily brief, adapts through feedback, and connects articles to Notion notes and Todoist tasks.
+  - image_path: /assets/img/projects/cascade-voice-agent.svg
+    alt: "A microphone connected to parallel conversation and task execution loops"
+    title: 'Cascade Voice Agent [WIP]'
+    category: 'AI Agents'
+    url: "https://github.com/AdithyaKrishnaK/finetune-cascade-voice-agent"
+    btn_label: "Code"
+    excerpt: >-
+      Built a voice-agent harness using decision APIs to coordinate fast conversation with slower reasoning and tool use. Tested it on tau2-bench's banking tasks to explore responsiveness and identify failures in routing, speech recognition, and task execution.  
+  - image_path: /assets/img/projects/voice-camouflage.svg
+    alt: "Audio waveform passing through a protective shield"
+    title: 'Real-Time Neural Voice Camouflage'
+    category: 'Machine Learning'
+    url: "https://github.com/AdithyaKrishnaK/audio-adversary"
+    btn_label: "Code"
+    excerpt: >-
+      Explored whether small, learned audio perturbations can disrupt speech recognition in real time. On filtered LibriSpeech, a PyTorch generator raised a speech model's word error rate from 3.3% to 65.2%.
+  - image_path: /assets/img/projects/telescope-archiver.svg
+    alt: "A star field indexed within a sky-coordinate search grid"
+    title: 'Telescope Archiver'
+    category: 'Research · Astronomy'
+    excerpt: >-
+      Built a system to collect, index and search GROWTH-India Telescope images under <a href="https://www.phy.iitb.ac.in/en/content/varun-bhalerao">Prof. Varun Bhalerao</a> at IIT Bombay, making a growing archive of over 40,000 images searchable and easier for researchers to access.
+  - image_path: /assets/img/projects/astronomy.svg
+    alt: "A comet and asteroid following orbits through a star field"
+    title: 'Astronomical Contributions'
+    category: 'Research · Astronomy'
+    excerpt: >-
+      Contributed observations and measurements of <a href="https://mpec.jostjahn.de/kakrishna-obs.html">Comet C/2022 N1 (Attard–Maury)</a> and <a href="https://mpec.jostjahn.de/kadithyakrishna-obs.html">Asteroid 2022 MY2</a>, credited in Minor Planet Electronic Circulars.
+  - image_path: /assets/img/projects/course-recommender.svg
+    alt: "A student profile connected to recommended course cards"
+    title: 'Course Recommendation System'
+    category: 'Machine Learning'
+    excerpt: >-
+      Built a course recommender using matrix factorization over enrolment data from 4,297 students across 1,806 courses, suggesting courses based on shared academic interests. 
+    btn_label: "Code"
+    btn_class: "btn--primary"
+  - image_path: /assets/img/projects/plant-design.svg
+    alt: "A reactor and distillation column connected by process piping"
+    title: 'Diethylamine Plant Design'
+    category: 'Chemical Engineering'
+    excerpt: >-
+      Led a five-person team to design a diethylamine plant with an annual capacity of 12,000 tonnes. Modelled the reactor and designed a 27-stage distillation column to achieve 99% product purity.
+  - image_path: /assets/img/projects/sec-analyzer.svg
+    alt: "A financial filing transformed into a bar chart"
+    title: 'SEC Filing Analyzer'
+    category: 'Data · Inter IIT'
+    excerpt: >-
+      Turned SEC 10-K/10-Q filings into structured financial statements and SaaS metrics for a dashboard. Our nine-member team won silver among 10 IITs at Inter IIT.
+  - image_path: /assets/img/projects/mess-i.svg
+    alt: "A meal tray beside a digital meal verification screen"
     title: 'Mess-i'
-    excerpt: 'A digital mess management platform to save time and redue paperwork and waste. Implemented an API service using MongoDB and Flask alongside a Flutter tablet application for mess workers to verify student meal eligibility. '
+    category: 'Campus Software · DevCom'
+    excerpt: >-
+      Helped digitize hostel dining at IIT Bombay for 10,000+ users across 10+ hostels, with NFC ID scanning, meal eligibility checks, and usage dashboards. Built Flask backend services, a Flutter app and an Angular dashboard for mess staff.
     url: "https://github.com/DevCom-IITB/mess-i-dashboard"
     btn_label: "Code"
     btn_class: "btn--primary"
-  - image_path: /assets/img/git.jpg
-    alt: "Growth India Telescope"
-    title: 'Telescope Archiver'
-    excerpt: '**Guide: <a href="https://www.phy.iitb.ac.in/en/content/varun-bhalerao">Prof. Varun Bhalerao</a>, IIT Bombay**. An intuitive image query interface using Django, VueJS, and NGINX to facilitate seamless data analysis. Enhanced search functionality for equatorial coordinates by leveraging the HEALPix system.'
-  - image_path: /assets/img/comet.jpg
-    alt: "comet"
-    title: 'Confirmation of COMET C/2022 N1 and Asteroid 2022 MY2'
-    excerpt: '**Guide: <a href="https://www.phy.iitb.ac.in/en/content/varun-bhalerao">Prof. Varun Bhalerao</a>, IIT Bombay**. I observed the <a href="https://minorplanetcenter.net/mpec/K22/K22N47.html">COMET C/2022 N1 (Attard-Maury)</a> and <a href="https://minorplanetcenter.net/mpec/K22/K22MA6.html">Asteroid 2022 MY2</a> using the Growth India Telescope in Ladakh and confirmed their orbits, leading to their discovery. '
-  - image_path: /assets/img/course_reco.jpg
-    alt: "CourseReco"
-    title: 'Course Recommendation System'
-    excerpt: "A course recommendation system using collaborative filtering and matrix decomposition. Uses Wandb for hyperparameter tuning."
-    url: "https://github.com/AdithyaKrishnaK/CS419"
-    btn_label: "Code"
-    btn_class: "btn--primary"
-  - image_path: /assets/img/digipad.jpg
-    alt: "DigiPad"
+  - image_path: /assets/img/projects/digipad.svg
+    alt: "Handwriting sent from a phone and stylus to a computer"
     title: 'DigiPad'
-    excerpt: "An app for online teaching that allows writing on a desktop using a homemade stylus and smartphone. Developed with Flutter, uses a socket-based service for smooth data transmission from the mobile app to the desktop over WiFi, with advanced detection of finger movements and gestures."
+    category: 'Campus Software · DevCom'
+    excerpt: >-
+      Turned a smartphone and homemade stylus into a writing pad for remote teaching during COVID-19, streaming handwriting to a computer in real time.
     url: "https://github.com/DevCom-IITB/digipad-flutter"
     btn_label: "Code"
     btn_class: "btn--primary"
-
+  - image_path: /assets/img/projects/resobin.svg
+    alt: "Searchable course resources with tags beside a timetable"
+    title: 'ResoBin'
+    category: 'Campus Software · DevCom'
+    url: "https://github.com/DevCom-IITB/ResoBin"
+    btn_label: "Code"
+    excerpt: >-
+      Contributed to IIT Bombay’s course discovery, review, and resource-sharing platform as part of DevCom. Added resource filtering with standardized tags, timetable sharing, and calendar improvements to help students find relevant material and plan their courses.
+  - image_path: /assets/img/projects/aicc-computation.svg
+    alt: "A combustion chamber and pressure gauge beside a prediction curve"
+    title: 'AICC Computation'
+    category: 'Scientific Computing · AERB Internship'
+    url: "https://github.com/AdithyaKrishnaK/AICC-Computation"
+    btn_label: "Code"
+    excerpt: >-
+      Developed combustion models during a winter internship at the Atomic Energy Regulatory Board to study pressure buildup in gas-filled compartments. Built Python tools to predict peak pressure and temperature.
+  - image_path: /assets/img/projects/certificate-manager.svg
+    alt: "A digital certificate with a verification seal beside a security shield"
+    title: 'Certificate Manager'
+    category: 'Infrastructure · Institute System Administrator'
+    url: "https://github.com/AdithyaKrishnaK/certificate-manager"
+    btn_label: "Code"
+    excerpt: >-
+      Started as an initiative during my time as an institute system administrator at IIT Bombay to streamline SSL certificate management. Built a Django tool to organize certificates, track expiration dates, and manage certificate-signing requests and renewals, bringing scattered maintenance tasks into one place.
+  - image_path: /assets/img/projects/washing-machine-bot.svg
+    alt: "A washing machine beside a phone showing an availability message"
+    title: 'Hostel Washing Machine Bot'
+    category: 'Automation · Hobby Project'
+    url: "https://github.com/AdithyaKrishnaK/hostel_washing_machine_bot"
+    btn_label: "Code"
+    excerpt: >-
+      A hobby project sparked by a friend joking that our hostel washing machine was always occupied whenever he went to wash clothes. Built a Telegram bot that lets residents record their usage and check who is using the machine and when it should be free—without walking down to check.
 ---
 
-{% for post in site.posts limit: 5 %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="portfolio-intro">A selection of things I have built and explored, from machine learning to campus tools and astronomy.</p>
 
-{% include feature_row id="feature_row" type="left" %}
+{% include portfolio-cards.html %}

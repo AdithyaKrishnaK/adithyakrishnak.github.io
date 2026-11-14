@@ -1,24 +1,30 @@
 ---
 title: "About me"
 author_profile: true
+classes: wide
 ---
 
-Hey! I'm Adithya, currently a final-year undergraduate at the Indian Institute of Technology (IIT) Bombay. I'm pursuing my B.Tech in Chemical Engineering (with minors in Computer Science). 
+I'm Adithya, a software engineer at Adobe working on Acrobat's GenAI systems. I build observability tools and intelligent automation to understand performance, diagnose failures, and make services more reliable. I also experiment with AI agents and harnesses to build better internal tools and improve the software development experience.
 
-I have explored a lot of things in college and you can find most of them here. One thing that sticks is that I love using software to solve problems and make people's lives efficient. I have worked on a lot of impactful projects in my insti life and would like to keep doing that. 
+I graduated from IIT Bombay in 2024 with a B.Tech. in Chemical Engineering and a Minor in Computer Science. My projects have taken me from astronomy and designing chemical plants to applications that improves lives across campus.
 
-## Activities that I have been a part of:
-- Institute System Administrator: Overseeing the LAN network to ensure uninterrupted internet access for a campus with 10,000+ students. Additionally, maintaining and managing Gymkhana servers that host websites for student bodies and applications used by the student community.
-- Overall Coordinator of DevCom: Heading a team of 30 developers and designers dedicated to addressing student needs through software solutions. Successful projects include InstiApp (10k+ downloads on Play Store), Mess-i (a mess digitalization system utilized by 10,000+ students), and Resobin (a course information repository).
-- Student Mentor:
-  - Institute Student Mentor (ISMP): Mentoring 12 freshmen from diverse backgrounds to ensure a smooth transition into college life
-  - Senior Mentor: Guiding 2 students part of the institute's Academic Rehabilitation Program.
-  - Department Academic Mentor: Guided 6 sophomores in making informed decisions in their academic and extra-curricular pursuits
-- Teaching Assistant: CS101 - Computer Programming and Utilization course at IIT Bombay 
+I like to work on projects that make complex things easier to understand, remove friction from everyday tasks, and solve problems people care about. 
+
+Explore my [work](/experience/) and [projects](/projects/) for a quick overview, or see my [résumé](/cv/) for the details.
+
   
 ## Hobbies and other interests:
-Most often, you would find me reading a book during breaks. Some of my favourites are Dune, The Godfather and of course, Harry Potter. I also love watching movies, though I always maintain that books are better than adaptations. I occasionally enjoy HIMYM, TBBT and B99. 
+On most breaks, you'll find me reading. A few favourites: Dune, The Godfather, and of course, Harry Potter. I firmly believe you should watch the movie before reading the book, because adaptations always disappoint (I still haven't forgiven Villeneuve for Dune Part II).
 
-Even though I am not into sports, I love cycle rides and feel the wind in my hair. Even though I don't play, I follow cricket and football (Messi ~~Ronaldo~~). I am also a productivity nerd, and enjoy organising my life using Notion, Todoist etc. 
+I enjoy running, hiking, and photography (check out my [Unsplash page](https://unsplash.com/@wood4104)). I'm also a productivity nerd who enjoys organising life in Notion and Todoist.
 
-I did a fair amount of quizzing (spend a lot of time reading random Wikipedia pages) and enjoy finding trivia wherever I go. I love making rational arguments and loves debating (and always up for one). 
+Years of quizzing left me with a habit of reading random Wikipedia pages and hopping from one to the next. And I'm always up for a good debate.
+
+## Updates
+
+- **Mar '26** — Ran my first 10K
+- **Dec '25** — Became a certified PADI Open Water Diver
+- **Jun '25** — Promoted to Member of Technical Staff II
+- **Jun '24** — Joined Adobe as a Member of Technical Staff
+- **May '24** — Graduated from IIT Bombay
+- **May '23** — Institute System Administrator, IIT Bombay

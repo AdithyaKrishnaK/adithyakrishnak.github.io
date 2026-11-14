@@ -1,0 +1,25 @@
+<div class="portfolio-cards portfolio-cards--{{ page.card_layout }}">
+  {% for item in page.feature_row %}
+    <article class="portfolio-card">
+      <div class="portfolio-card__media{% if page.card_layout == 'experience' %} portfolio-card__media--logo{% endif %}">
+        {% if item.image_path %}
+          <img class="portfolio-card__image" src="{{ item.image_path | relative_url }}" alt="{{ item.alt | escape }}" width="572" height="360" loading="lazy">
+        {% else %}
+          <span class="portfolio-card__monogram" aria-hidden="true">{{ item.title | slice: 0 }}</span>
+        {% endif %}
+      </div>
+      <div class="portfolio-card__body">
+        <header class="portfolio-card__header">
+          <p class="portfolio-card__category">{{ item.category }}</p>
+          {% if item.period %}<p class="portfolio-card__period">{{ item.period }}</p>{% endif %}
+        </header>
+        <h2 class="portfolio-card__title">{{ item.title }}</h2>
+        <div class="portfolio-card__description">{{ item.excerpt | markdownify }}</div>
+        {% if item.url %}
+          <a class="portfolio-card__link" href="{{ item.url | relative_url }}" aria-label="{{ item.btn_label | default: 'View code' | escape }} — {{ item.title | escape }}">{{ item.btn_label | default: 'View code' }} <span aria-hidden="true">&rarr;</span></a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>
+<p class="portfolio-resume">For the full details, see my <a href="{{ '/cv/' | relative_url }}">résumé <span aria-hidden="true">&rarr;</span></a>.</p>

@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "K Adithya Krishna"
   avatar           : "/assets/img/my_photo.jpeg"
-  bio              : "Final-year ChemE undergraduate, IIT Bombay."
+  bio              : "Member of Technical Staff II, Adobe. IIT Bombay alumnus."
   location         : "Mumbai, India"
   email            :
   links:
@@ -125,6 +125,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/k-adithya-krishna-29a13620a/"
+    - label: "Unsplash"
+      icon: "fas fa-fw fa-camera"
+      url: "https://unsplash.com/@wood4104"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://www.instagram.com/adithyakrishna4104/"
@@ -145,6 +148,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/adithyakrishna4104/"
+    - label: "Unsplash"
+      icon: "fas fa-fw fa-camera"
+      url: "https://unsplash.com/@wood4104"
 
 
 # Reading Files

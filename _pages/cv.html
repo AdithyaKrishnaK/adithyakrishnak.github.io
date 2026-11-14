@@ -1,11 +1,21 @@
 ---
-layout: archive
-title: "Resume"
+layout: default
+title: "CV"
 permalink: /cv/
-author_profile: true
 ---
 
-<object data= "/assets/2pg.pdf"" 
-        width="800"
-        height="500"> 
-</object>
+<main id="main" class="cv-viewer" aria-labelledby="page-title">
+  <header class="cv-viewer__header">
+    <h1 id="page-title">CV</h1>
+    <div class="cv-viewer__actions">
+      <a href="{{ '/assets/2pg.pdf' | relative_url }}" target="_blank" rel="noopener">Open PDF</a>
+      <a href="{{ '/assets/2pg.pdf' | relative_url }}" download="Adithya-Krishna-CV.pdf">Download CV</a>
+    </div>
+  </header>
+  <object class="cv-viewer__document fitvidsignore"
+          data="{{ '/assets/2pg.pdf' | relative_url }}#view=FitH"
+          type="application/pdf"
+          aria-label="K Adithya Krishna's CV">
+    <p>This browser cannot display the PDF. <a href="{{ '/assets/2pg.pdf' | relative_url }}">Open the CV</a> to read it.</p>
+  </object>
+</main>

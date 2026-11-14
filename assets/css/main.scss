@@ -7,3 +7,40 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import "portfolio-cards";
+
+#main.cv-viewer {
+  max-width: none;
+  padding: 0;
+}
+
+.cv-viewer {
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75em;
+    padding: 0.75em 1em;
+
+    h1 {
+      margin: 0;
+      font-size: 1.25em;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25em;
+    font-size: 0.75em;
+  }
+
+  &__document {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    border: 0;
+  }
+}

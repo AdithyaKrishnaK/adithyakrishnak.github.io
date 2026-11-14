@@ -3,19 +3,37 @@ layout: archive
 title: "Work Experience"
 permalink: /experience/
 author_profile: true
+card_layout: experience
 feature_row:
-  - image_path: /assets/img/adobe.jpeg
-    alt: "adobe"
-    title: 'Product Intern, Adobe'
-    excerpt: 'Created a microservice to detect performance regressions using New Relic and provide root cause analysis (RCA) for Adobe Sign.'
-  - image_path: /assets/img/aerb.jpg
-    alt: "aerb"
-    title: 'Industrial Learning Program, AERB'
-    excerpt: 'Performed a risk assessment from hydrogen or deuterium explosion for the reactor containment building.'
+  - image_path: /assets/img/adobe-logo.svg
+    alt: "Adobe"
+    url: "https://www.adobe.com/"
+    btn_label: "Visit Adobe"
+    title: 'Member of Technical Staff II'
+    category: 'Adobe'
+    period: 'June 2024 – Present'
+    excerpt: >-
+      I own Acrobat's PDF ingestion service, which handles document extraction and indexing for its GenAI features. My work spans improving system performance and reliability, building a performance analysis framework, and developing tools to investigate failures and support incident response.
+  - image_path: /assets/img/adobe-logo.svg
+    alt: "Adobe"
+    url: "https://www.adobe.com/"
+    btn_label: "Visit Adobe"
+    title: 'Product Intern'
+    category: 'Adobe'
+    period: 'May – July 2023'
+    excerpt: >-
+      Built a service to detect performance regressions in Adobe Sign and trace them to the responsible code changes. Added a React dashboard and automated API discovery and performance alerts.
+  - image_path: /assets/img/aerb-logo.jpg
+    alt: "Atomic Energy Regulatory Board"
+    url: "https://www.aerb.gov.in/english/"
+    btn_label: "Visit AERB"
+    title: 'Winter Intern'
+    category: 'Atomic Energy Regulatory Board'
+    period: 'December 2021 – January 2022'
+    excerpt: >-
+      Modelled hydrogen combustion in nuclear reactor containment spaces using Python. 
 ---
 
-{% for post in site.posts limit: 5 %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="portfolio-intro">Building reliable systems, understanding performance, and exploring applied AI.</p>
 
-{% include feature_row id="feature_row" type="left" %}
+{% include portfolio-cards.html %}
